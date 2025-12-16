@@ -1,0 +1,9 @@
+# ignore the contents of the _site directory and other cache directories
+_site/
+.sass-cache/
+
+# ignore automatically generated Gemfile.lock
+Gemfile.lock
+
+/vendor/
+.bundle/

@@ -1,0 +1,19 @@
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+  <head>
+    <!-- For all browsers -->
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+    {% include favicon.html %}
+  </head>
+  <body>
+
+    {{ content }}
+
+  </body>
+</html>
